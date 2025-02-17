@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="Git Logo" height="200px"/>
+  <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="Git Logo" height="100px"/>
 </div>
 
 # 📌 Git Commands Reference  
