@@ -1,97 +1,124 @@
-  <div align="center">
-  <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="GitHub Stats" height="200px"/>
+<div align="center">
+  <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="Git Logo" height="200px"/>
 </div>
 
-## This repository contains essential Git commands for everyday use. The commands are organized in a structured manner for easy reference.
+# 📌 Git Commands Reference  
+📁 This repository contains essential Git commands for everyday use. The commands are structured for easy reference.  
 
+---
 
-# Git Commands
+## 🚀 Initialization
+- **Create a new Git repository**:  
+  ```bash
+  git init
+  ```
 
-## 1. Initialization
-- **Create a new Git repository**:
-  
-  `git init`
+---
 
-## 2. Configuration
-- **Set global username**:
-  
-  `git config --global user.name "IndraNaik"`
+## ⚙️ Configuration
+- **Set global username**:  
+  ```bash
+  git config --global user.name "IndraNaik"
+  ```
+- **Set global email**:  
+  ```bash
+  git config --global user.email "pathlavath.indra@gmail.com"
+  ```
 
-- **Set global email**:
-  
-  `git config --global user.email "pathlavath.indra@gmail.com"`
+---
 
-## 3. File Operations
-- **Create a new file**:
-  
-  `touch <filename>`
+## 📂 File Operations
+- **Create a new file**:  
+  ```bash
+  touch <filename>
+  ```
+- **Remove a file**:  
+  ```bash
+  rm <filename>
+  ```
+- **Restore a deleted file**:  
+  ```bash
+  git restore <filename>
+  ```
 
-- **Remove a file**:
-  
-  `rm <filename>`
+---
 
-- **Restore a deleted file**:
-  
-  `git restore <filename>`
+## 📌 Staging and Commit
+- **Check the status of the repository**:  
+  ```bash
+  git status
+  ```
+- **Add a file to the staging area**:  
+  ```bash
+  git add <filename>
+  ```
+  ```bash
+  git add .
+  ```
+- **Commit changes with a message**:  
+  ```bash
+  git commit -m "your commit message"
+  ```
 
-## 4. Staging and Commit
-- **Check the status of the repository**:
-  
-  `git status`
+---
 
-- **Add a file to the staging area**:
-  
-  `git add <filename>`
+## 🌿 Branching
+- **Create a new branch**:  
+  ```bash
+  git checkout -b <branch_name>
+  ```
+- **Switch between branches**:  
+  ```bash
+  git checkout <branch_name>
+  ```
+  ```bash
+  git switch <branch_name>
+  ```
+- **List all branches**:  
+  ```bash
+  git branch
+  ```
+  ```bash
+  git branch -a
+  ```
+  ```bash
+  git branch -r
+  ```
 
-  `git add .`
+---
 
-- **Commit changes with a message**:
-  
-  `git commit -m "your commit message"`
+## 📜 Logs
+- **View commit history**:  
+  ```bash
+  git log
+  ```
+- **View concise commit history**:  
+  ```bash
+  git log --oneline
+  ```
 
-## 5. Branching
-- **Create a new branch**:
-  
-  `git checkout -b <branch_name>`
-  
+---
 
-- **Switch between branches**:
-  
-  `git checkout <branch_name>`
+## ❌ Remove from Staging
+- **Unstage a file (remove from index but keep in working directory)**:  
+  ```bash
+  git rm --cached <filename>
+  ```
 
-  `git switch <branch_name>`
+---
 
-- **List all branches**:
-  
-  `git branch`
+## 🛠️ Miscellaneous
+- **View all files, including hidden ones**:  
+  ```bash
+  ls -a
+  ```
+- **Clear terminal screen**:  
+  ```bash
+  clear
+  ```
+- **View command history**:  
+  ```bash
+  history
+  ```
 
-  `git branch -a`
-
-  `git branch -r`
-
-## 6. Logs
-- **View commit history**:
-  
-  `git log`
-
-- **View concise commit history**:
-  
-  `git log --oneline`
-
-## 7. Remove from Staging
-- **Unstage a file (remove from index but keep in working directory)**:
-  
-  `git rm --cached <filename>`
-
-## 8. Miscellaneous
-- **View all files, including hidden ones**:
-  
-  `ls -a`
-
-- **Clear terminal screen**:
-  
-  `clear`
-
-- **View command history**:
-  
-  `history`
+---
